@@ -69,7 +69,7 @@ async function addProduct() {
     var isValid = true;
     
     isValid &= validation.checkEmpty(name, "tbname", "tên sản phẩm không được để trống");
-    isValid &= validation.checkEmpty(price, "tbgia", "giá sản phẩm không được để trống") && validation.checkscore(price, "tbgia", "giá sản phẩm phải là số");
+    isValid &= validation.checkEmpty(price, "tbgia", "giá sản phẩm không được để trống") && validation.checkscore(price, "tbgia", "nhập lại giá sản phẩm bằng số");
     isValid &= validation.checkEmpty(screen, "tbmanhinh", "thông số màng hình không được để trống");
     isValid &= validation.checkEmpty(backCamera, "tbcamsau", "thông số camera sau không được để trống");
     isValid &= validation.checkEmpty(frontCamera, "tbcamtruoc", "thông số camera trước không được để trống");
