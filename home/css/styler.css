@@ -1,0 +1,213 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    position: relative;
+    min-height: 100%;
+    font-size: 16px;
+  }
+  
+  body {
+    padding-top: 70px;
+    margin-bottom: 0px;
+    background: linear-gradient(to left, #8942a8, #ba382f);
+  }
+  
+  p {
+    margin: 0 0 16px;
+  }
+  
+  h2 {
+    margin: 0;
+  }
+  
+  strong {
+    font-weight: 600;
+  }
+  
+  .btn {
+    border: 0;
+    color: rgba(255, 255, 255, 0.85);
+    background-color: #294d5c;
+    transition: all 0.15s;
+  }
+  .btn:hover {
+    outline: none;
+    background-color: #5f9db8;
+  }
+  .btn:focus {
+    outline: 0;
+    box-shadow: none !important;
+    box-shadow: 0 0 0 2px #404b61, inset 0 0 0 2px #ffffff;
+  }
+  .btn:active {
+    transform: scale(0.95);
+    background-color: #294d5c;
+  }
+  
+  .btn-banner:hover {
+    background-color: #ffffff;
+  }
+  #btnDelete {
+    background-color: #e7380c;
+  }
+  
+  #btnDelete:hover {
+    background-color: #e96949;
+  }
+  
+  #btnEdit,
+  #btnAddPhone,
+  #btnUpdate {
+    background-color: #f0b80f;
+  }
+  
+  #btnEdit:hover,
+  #btnAddPhone:hover,
+  #btnUpdate:hover {
+    background-color: #f1ca55;
+  }
+  
+ 
+  
+  
+  header #navbarColor01 a {
+    transition: 0.3s all ease-in-out;
+  }
+  
+  header #navbarColor01 a:hover {
+    transform: scale(1.15);
+  }
+  
+  .nav1 {
+    display: flex;
+    justify-content: flex-start;
+    width: 45%;
+  }
+  
+  .nav2 {
+    display: flex;
+    justify-content: flex-end;
+    width: 45%;
+  }
+  
+
+.product{
+  display: flex;
+  justify-content: center;
+}
+
+  .card{
+    position: relative;
+    background: linear-gradient(to left, #8942a8, #ba382f);
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 7px 5px -5px #4d4b4b;
+    transition: 0.5s;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+    width: 230px;
+    margin: 10px;
+   
+}
+.card:hover {
+    height: 430px;
+    width: 260px;
+    box-shadow: 0 5px 15px rgb(0 0 0 / 50%);
+}
+.card:hover .details{
+    transform: translateY(-160px);
+}
+.top-bar{
+    transform: translateY(0.5rem);
+    width: 100%;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 0 1rem;
+}
+.card .img-container{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    transform: translateY(35px);
+}
+.card .img-container img{
+    width: 100%;
+    justify-items: center;
+}
+.card .details{
+    position: absolute;
+    height: 221px;
+    width: 100%;
+    background-color: #2e2f33;
+    background-size: auto;
+    border-radius: 20px;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 11px;
+    bottom: -123px;
+    transition: 0.25s;
+    color: white;
+}
+
+.card .details .name-fav{
+    justify-content: space-between;
+}
+.card .details .Parameter{
+    flex-direction: column;
+    justify-content: space-between;
+    display: block;
+}
+
+
+.card .details .Parameter p{
+  
+    font-size: 0.9rem;
+    padding: 5px 0;
+}
+.card .details .purchase{
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+
+.card .details .purchase p{
+    font-weight: 500;
+   
+}
+.card .details .name-fav {
+    justify-content: space-between;
+}
+.card .details .name-fav strong{
+    font-weight: 600;
+   
+}
+.details .purchase .add-btn {
+    border-radius: 20px;
+    border: 1px solid white;
+    background: none;
+    color: white;
+    padding: 6px 10px;
+}
+button {
+    border: none;
+    background: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.nav{
+    position: absolute;
+    right: 2rem;
+    top: 1.2rem;
+    color: black;
+}

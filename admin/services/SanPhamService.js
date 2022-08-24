@@ -3,7 +3,7 @@
 
             var Promise = axios({
                 method: 'get',
-                url: 'https://62ee1290a785760e67737090.mockapi.io/Products',
+                url: 'https://62e774d193938a545bd1f624.mockapi.io/baitap',
                 responseType: 'stream'
             })
             return Promise
@@ -14,7 +14,7 @@
             
             return axios({
                 method: 'post',
-                url: 'https://62ee1290a785760e67737090.mockapi.io/Products',
+                url: 'https://62e774d193938a545bd1f624.mockapi.io/baitap',
                 data: sp 
             });
         }
@@ -24,7 +24,7 @@
            
             return axios({
                 method: 'DELETE',
-                url: `https://62ee1290a785760e67737090.mockapi.io/Products/${id}`,
+                url: `https://62e774d193938a545bd1f624.mockapi.io/baitap/${id}`,
     
             })
     
@@ -36,7 +36,7 @@
         this.getProductDele = function(id){
             return axios({
                 method: 'GET',
-                url: `https://62ee1290a785760e67737090.mockapi.io/Products/${id}`,
+                url: `https://62e774d193938a545bd1f624.mockapi.io/baitap/${id}`,
             });
         
         }
@@ -44,7 +44,7 @@
         this.updateProduct = function (id, sp) {
             return axios({
                 method: 'put',
-                url: `https://62ee1290a785760e67737090.mockapi.io/Products/${id}`,
+                url: `https://62e774d193938a545bd1f624.mockapi.io/baitap/${id}`,
                 data: sp
             });
         }

@@ -80,7 +80,7 @@ async function addProduct() {
     if(isValid){
         try {
     
-            var response = await fetch('https://62ee1290a785760e67737090.mockapi.io/Products',
+            var response = await fetch('https://62e774d193938a545bd1f624.mockapi.io/baitap',
             {
                 method: 'POST', 
                 headers: {
